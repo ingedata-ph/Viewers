@@ -23,7 +23,7 @@ const toolbarButtons: Button[] = [
               type: 'range',
               min: 0.5,
               max: 99.5,
-              step: 0.5,
+              step: 0.1,
               value: 25,
               commands: {
                 commandName: 'setBrushSize',
